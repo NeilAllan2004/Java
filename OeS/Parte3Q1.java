@@ -1,4 +1,4 @@
-public class Q3 {
+public class Q1 {
   public static void main(string[] args) {
     int x=80;
     while(x!=1){
