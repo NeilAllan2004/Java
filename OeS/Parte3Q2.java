@@ -1,4 +1,4 @@
-public class Q2 {
+public class Parte3Q2 {
   public static void main(String[] args) {
     int n=10;
     for(int x=1;x<=n;x++){
