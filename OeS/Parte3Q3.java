@@ -1,5 +1,5 @@
 public class Q3 {
-  public static void main(string[] args) {
+  public static void main(String[] args) {
     int Valor;
     for(int x=1;x<=10;x++){
       Valor=1;
