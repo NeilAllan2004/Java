@@ -6,5 +6,5 @@ public class Funcionario {
     private String Nome;
     private SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
     private Date dataAdmissao;
-    private float salario;
+    private double salario;
 }
