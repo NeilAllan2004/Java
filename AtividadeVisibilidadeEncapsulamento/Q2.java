@@ -1,10 +1,13 @@
-package AtividadeVisibilidadeEncapsulamento;
+package com.mycompany.ex3;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Funcionario {
     private String Nome;
-    private SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+    SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
     private Date dataAdmissao;
     private double salario;
     
@@ -29,6 +32,10 @@ public class Funcionario {
     }
 
     public void setdataAdmissao(String DataAdmissao){
-        this.dataAdmissao= sdf.parse(DataAdmissao);
+        try {
+            this.dataAdmissao= sdf.parse(DataAdmissao);
+        } catch (ParseException ex) {
+            Logger.getLogger(Funcionario.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 }
