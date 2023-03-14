@@ -1,4 +1,4 @@
-package com.mycompany.ex3;
+package AtividadeVisibilidadeEncapsulamento.;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
