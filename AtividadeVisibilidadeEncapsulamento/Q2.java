@@ -6,7 +6,7 @@ public class Funcionario {
     private String Nome;
     private SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
     private Date dataAdmissao;
-    private float salario;
+    private double salario;
     
     public String getNome(){
         return this.Nome;
@@ -16,11 +16,11 @@ public class Funcionario {
         this.Nome = Nome;
     }
 
-    public float getsalario(){
+    public double getsalario(){
         return this.salario;
     }
 
-    public void setsalario(float salario){
+    public void setsalario(double salario){
         this.salario = salario;
     }
 
