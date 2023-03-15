@@ -28,7 +28,7 @@ public class Funcionario {
             this.salario = salario;
         }
         else{
-            System.out.print("Não foi possível adicionar esse salário");
+            System.out.println("Não foi possível adicionar esse salário");
         }
     }
 
